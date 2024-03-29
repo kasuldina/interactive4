@@ -1,0 +1,1888 @@
+@media only screen and (min-width: 1920px) {
+    /* Desktop */
+
+/* *{
+    box-sizing: border-box;
+} */
+
+
+html, body{
+    /* padding: 24px;   */
+    overflow-x: hidden;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    margin: 0 auto;
+    position: relative;
+}
+
+body {
+    background-color: #111;
+}
+
+.body2 {
+    background-color: #000;
+}
+
+.canvas {
+    position: absolute;
+    width: 100%; 
+    height: 1080px
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../fonts/SFProText-Regular.ttf") format("truetype");
+}
+
+.section1 {
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    top: 24px;
+    font-size: 3.33vw;
+    letter-spacing: -0.64px;
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    gap: 63.65vw;
+    font-family: "SF Pro Text";
+    color: var(--gray-300, #fff);
+    font-style: normal;
+    font-weight: 400;
+    text-decoration-line: underline;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.circlebox {
+    display: flex;
+    justify-content: center;
+}
+
+.h1box {
+    position: absolute;
+    top: 37vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #FFF;
+    font-family: "SF Pro Text";
+    font-size: 25vw;
+    font-weight: 400;
+    line-height: 468px;
+    letter-spacing: -2.918px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.products {
+    width: 100%;
+    height: 1080px;
+}
+
+.carrot {
+    width: 450px;
+    height: 506px;
+    /* scale: 1.2; */
+    position: absolute;    
+    top: 6vw;
+    left: 7.29vw;
+    position: absolute; 
+    background-image: url(../img/carrot.png);
+}
+
+.oil {
+    width: 477px;
+    height: 438px;
+    /* scale: 1.2; */
+    background-image: url(../img/oil.png);
+    position: absolute;
+    top: 4vw;
+    left: 31vw;
+}
+
+.pepper {
+    width: 537px;
+    height: 483px;
+    /* scale: 1.2; */
+    background-image: url(../img/pepper.png);
+    position: absolute;
+    top: 4vw;
+    left: 56vw
+}
+
+.onion {
+    width: 334px;
+    height: 311px;
+    /* scale: 1.2; */
+    background-image: url(../img/onion.png);
+    position: absolute;
+    top: 12vw;
+    left: 82vw
+}
+
+.milk {
+    width: 623px;
+    height: 778px;
+    /* scale: 1.2; */
+    background-image: url(../img/milk.png);
+    position:absolute;
+    top: 23vw;
+    left: 7vw 
+}
+
+.cream {
+    width: 373px;
+    height: 226px;
+    /* scale: 1.2; */
+    background-image: url(../img/cream.png);
+    position: absolute;
+    left: 35vw
+}
+
+.dish {
+    width: 688px;
+    height: 706px;
+    /* scale: 1.2; */
+    background-image: url(..//img/dish.png);
+    position: absolute;
+    top: 30vw;
+    left: 52vw;
+}
+
+.yellowpepper {
+    width: 513px;
+    height: 510px;
+    /* scale: 1.2; */
+    background-image: url(../img/yellowpepper.png);
+    position: absolute;
+    top: 35vw;
+    right: 1vw;
+}
+
+.subscription {
+    color: var(--gray-300, #808080);
+    font-family: "SF Pro Text";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-transform: lowercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 98.241vh;
+    left: 50%;
+    z-index: -1000;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* section 2 */
+.h2box {
+    width: 97.50vw;
+    color: var(--white, #FDFDFD);
+    font-family: "SF Pro Text";
+    font-size: 8.25vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%; /* 153.6px */
+    letter-spacing: -6px;
+    text-transform: uppercase;
+    animation: just 4s ease-in-out infinite;
+    position: relative;
+    top: 29vh;
+    left: 1%;
+}
+
+@keyframes just {
+    0% {text-align: left;}
+    100% {text-align: justify;}
+}
+
+/* section 3 */
+
+.holod {
+    margin-top: 117.852vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holodos {
+    position: absolute;
+    width: 100vw;
+    height: 1441px;
+}
+
+.productsInHolodos {
+    width: 100vw;
+    z-index: 1000;
+    display: flex;
+    overflow: hidden;
+}
+
+.carrot2 {
+    width: 450px;
+    height: 516px;
+    scale: 1,2;
+    position: absolute;    
+    top: 140vw;
+    left: 9vw;
+    background-image: url(../img/carrot2.png);
+
+}
+
+.oil2 {
+    width: 418px;
+    height: 343px; 
+    scale: 1.2;
+    background-image: url(../img/oil2.png);
+    position: absolute;
+    top: 146vw;
+    left: 28vw;
+}
+
+.pepper2 {
+    width: 537px;
+    height: 554px;
+    scale: 1.2;
+    background-image: url(../img/pepper2.png);
+    position: absolute;
+    z-index: 1000;
+    top: 135.97vw;
+    left: 20.28vw
+}
+
+.onion2 {
+    width: 334px;
+    height: 311px;
+    scale: 1.2;
+    background-image: url(../img/onion2.png);
+    position: absolute;
+    z-index: 1000;
+    top: 129.32vw; 
+    left: 77.92vw
+}
+
+.milk2 {
+    width: 280px;
+    height: 769px;
+    scale: 1.2;
+    background-image: url(../img/milk2.png);
+    position:absolute;
+    z-index: 1000;
+    top: 230vh;
+    left: 5.36vw
+}
+
+.cream2 {
+    width: 359px;
+    height: 124px;
+    scale: 1.2;
+    background-image: url(../img/cream2.png);
+    position: absolute;
+    top: 155vw;
+    left: 38vw
+}
+
+.dish2 {
+    width: 876px;
+    height: 643px;
+    scale: 1.2;
+    background-image: url(..//img/dish2.png);
+    position: absolute;
+    top: 135vw;
+    left: 52vw;
+}
+
+.yellowpepper2 {
+    width: 515px;
+    height: 509px;
+    scale: 1.2;
+    background-image: url(../img/yellowpepper2.png);
+    position: absolute;
+    top: 135vw;
+    left: 40vw;
+}
+
+.teleportFlex {
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teleport {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 180vw;
+    background-color:#111;
+    position: absolute;
+    top: 148vw;
+    left: 38vw;
+    animation: scale 1.5s ease-in-out;
+    transition: scale 1.5s ease-in-out;
+    /* z-index: 2000; */
+}
+
+.clickHere {
+    color: var(--gray-300, #808080);
+    font-family: "SF Pro Text";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-transform: lowercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 153vw;
+    left: 41vw
+}
+
+.section4 {
+    width: 100%;
+    height: 1080px;
+    background-color: #111;
+}
+
+  .carrot4 {
+    background-image: url(..//img/carrot.png);
+    position: absolute;
+    width: 450px;
+    height: 506px;
+    animation: left 3s linear infinite;
+    mix-blend-mode: difference;
+  }
+
+  @keyframes left {
+    from {left: -100%}
+    to {left: 100%}
+  }
+
+  .oil4 {
+    background-image: url(..//img/oil.png);
+    position: absolute;
+    top: 20vh;
+    width: 477px;
+    height: 438px;
+    animation: right 4s linear infinite;
+    mix-blend-mode: difference;
+  }
+
+  @keyframes right {
+    from {left: 100%}
+    to {left: -100%}
+  }
+
+  .pepper4 {
+    background-image: url(..//img/pepper.png);
+    position: absolute;
+    top: 35vh;
+    width: 537px;
+    height: 483px;
+    animation: left2 7s linear infinite;
+    mix-blend-mode: difference;
+  }
+
+  @keyframes left2 {
+    from {left: -100%}
+    to {left: 100%}
+  }
+
+  .onion4 {
+    background-image: url(..//img/onion.png);
+    position: absolute;
+    top: 50vh;
+    width: 334px;
+    height: 311px;
+    animation: right2 3s linear infinite;
+    mix-blend-mode: difference;
+  }
+
+  @keyframes right2 {
+    from {left: 100%}
+    to {left: -100%}
+  }
+
+
+
+  .section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .holod2 {
+    margin-top: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .holodos2 {
+        position: absolute;
+        width: 100vw;
+        height: 1441px;
+        /* top: 50vh; */
+    }
+
+    .end {
+        z-index: 10000;
+        position: absolute;
+        top: 37vh;
+        left: 1vw;
+        display: flex;
+        justify-content: center;
+        width: 97.50vw;
+        color: var(--white, #FDFDFD);
+        font-family: "SF Pro Text";
+        font-size: 8.25vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%; /* 153.6px */
+        letter-spacing: -6px;
+        text-transform: uppercase;
+        animation: just 4s ease-in-out infinite;
+        position: relative;
+        top: 10vh;
+        left: 1%;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+    /* Desktop */
+    html, body{
+        width: 100%;
+        
+    }
+    
+    body {
+        width: 1920px;
+        background-color: #111;
+    }
+    
+    .canvas {
+        position: absolute;
+        width: 1920px; 
+        height: 1080px
+    }
+    
+    @font-face {
+      font-family: "SF Pro Text";
+      src: url("../fonts/SFProText-Regular.ttf") format("truetype");
+    }
+    
+    .section1 {
+        width: 1920px;
+        height: 1080px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header {
+        font-size: 3.33vw;
+        letter-spacing: -0.64px;
+        position: relative;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        font-family: "SF Pro Text";
+        color: var(--gray-300, #fff);
+        font-style: normal;
+        font-weight: 400;
+        text-decoration-line: underline;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    
+    .circlebox {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .h1box {
+        position: absolute;
+        top: 398px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    h1 {
+        color: #FFF;
+        font-family: "SF Pro Text";
+        font-size: 400px;
+        font-weight: 400;
+        line-height: 348px;
+        letter-spacing: -2.918px;
+        text-transform: uppercase;
+        z-index: 1;
+    }
+    
+    .products {
+        width: 1920px;
+        /* height: 100%; */
+        /* display: flex; */
+    }
+    
+    .carrot {
+        width: 450px;
+        height: 506px;
+        /* scale: 1.2; */
+        position: absolute;    
+        top: 6vw;
+        left: 7.29vw;
+        position: absolute; 
+        background-image: url(../img/carrot.png);
+    }
+    
+    .oil {
+        width: 477px;
+        height: 438px;
+        /* scale: 1.2; */
+        background-image: url(../img/oil.png);
+        position: absolute;
+        top: 4vw;
+        left: 31vw;
+    }
+    
+    .pepper {
+        width: 537px;
+        height: 483px;
+        /* scale: 1.2; */
+        background-image: url(../img/pepper.png);
+        position: absolute;
+        top: 4vw;
+        left: 56vw
+    }
+    
+    .onion {
+        width: 334px;
+        height: 311px;
+        /* scale: 1.2; */
+        background-image: url(../img/onion.png);
+        position: absolute;
+        top: 12vw;
+        left: 82vw
+    }
+    
+    .milk {
+        width: 623px;
+        height: 778px;
+        /* scale: 1.2; */
+        background-image: url(../img/milk.png);
+        position:absolute;
+        top: 23vw;
+        left: 7vw 
+    }
+    
+    .cream {
+        width: 373px;
+        height: 226px;
+        /* scale: 1.2; */
+        background-image: url(../img/cream.png);
+        position: absolute;
+        left: 35vw
+    }
+    
+    .dish {
+        width: 688px;
+        height: 706px;
+        /* scale: 1.2; */
+        background-image: url(..//img/dish.png);
+        position: absolute;
+        top: 30vw;
+        left: 52vw;
+    }
+    
+    .yellowpepper {
+        width: 513px;
+        height: 510px;
+        /* scale: 1.2; */
+        background-image: url(../img/yellowpepper.png);
+        position: absolute;
+        top: 35vw;
+        right: 1vw;
+    }
+    
+    .subscription {
+        color: var(--gray-300, #808080);
+        font-family: "SF Pro Text";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.36px;
+        text-transform: lowercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 1080px;
+        left: 50%;
+        z-index: -1000;
+        transform: translate(-50%, -50%);
+    }
+    
+    
+    
+    /* section 2 */
+    .h2box {
+        width: 97.50vw;
+        color: var(--white, #FDFDFD);
+        font-family: "SF Pro Text";
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%; /* 153.6px */
+        letter-spacing: -6px;
+        text-transform: uppercase;
+        animation: just 4s ease-in-out infinite;
+        position: absolute;
+        top: 116vh;
+    }
+    
+    
+    @keyframes just {
+        0% {text-align: left;}
+        100% {text-align: justify;}
+    }
+
+    
+    /* section 3 */
+    
+    
+    .holod {
+        margin-top: 127.852vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .holodos {
+        position: absolute;
+        margin-top: 58.852vh;
+        width: 100vw;
+        height: 1441px;
+    }
+
+    .productsInHolodos {
+        width: 1080px;
+        z-index: 1000;
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .carrot2 {
+        width: 450px;
+        height: 512px;
+        /* scale: 1.2; */
+        position: absolute;    
+        top: 160vw;
+        left: 9vw;
+        background-image: url(../img/carrot2.png);
+    
+    }
+    
+    .oil2 {
+        width: 418px;
+        height: 343px; 
+        /* scale: 1.2; */
+        background-image: url(../img/oil2.png);
+        position: absolute;
+        top: 166vw;
+        left: 28vw;
+    }
+    
+    .pepper2 {
+        width: 537px;
+        height: 554px;
+        /* scale: 1.2; */
+        background-image: url(../img/pepper2.png);
+        position: absolute;
+        z-index: 1000;
+        top: 145.97vw;
+        left: 20.28vw
+    }
+    
+    .onion2 {
+        width: 334px;
+        height: 311px;
+        /* scale: 1.2; */
+        background-image: url(../img/onion2.png);
+        position: absolute;
+        z-index: 1000;
+        top: 149.32vw; 
+        left: 77.92vw
+    }
+    
+    .milk2 {
+        width: 280px;
+        height: 769px;
+        /* scale: 1.2; */
+        background-image: url(../img/milk2.png);
+        position:absolute;
+        z-index: 1000;
+        top: 144.43vw;
+        left: 5.36vw
+    }
+    
+    .cream2 {
+        width: 359px;
+        height: 124px;
+        /* scale: 1.2; */
+        background-image: url(../img/cream2.png);
+        position: absolute;
+        top: 177vw;
+        left: 38vw
+    }
+    
+    .dish2 {
+        width: 876px;
+        height: 643px;
+        /* scale: 1.2; */
+        background-image: url(..//img/dish2.png);
+        position: absolute;
+        top: 155vw;
+        left: 52vw;
+    }
+    
+    .yellowpepper2 {
+        width: 515px;
+        height: 509px;
+        /* scale: 1.2; */
+        background-image: url(../img/yellowpepper2.png);
+        position: absolute;
+        top: 155vw;
+        left: 40vw;
+    }
+    
+    .teleportFlex {
+        width: 12vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #teleport {
+        width: 12vw;
+        height: 12vw;
+        border-radius: 180vw;
+        background-color: #111;
+        position: absolute;
+        top: 171vw;
+        left: 38vw;
+        animation: scale 1.5s ease-in-out;
+        transition: scale 1.5s ease-in-out;
+        /* z-index: 2000; */
+    }
+    
+    .clickHere {
+        color: var(--gray-300, #808080);
+        font-family: "SF Pro Text";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.36px;
+        text-transform: lowercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 175.5vw;
+        left: 40vw
+    }
+
+    .section4 {
+        width: 100%;
+        height: 1080px;
+        background-color: #111;
+    }
+    
+      .carrot4 {
+        background-image: url(..//img/carrot.png);
+        position: absolute;
+        width: 450px;
+        height: 506px;
+        animation: left 3s linear infinite;
+        mix-blend-mode: difference;
+      }
+    
+      @keyframes left {
+        from {left: -100%}
+        to {left: 100%}
+      }
+    
+      .oil4 {
+        background-image: url(..//img/oil.png);
+        position: absolute;
+        top: 20vh;
+        width: 477px;
+        height: 438px;
+        animation: right 4s linear infinite;
+        mix-blend-mode: difference;
+      }
+    
+      @keyframes right {
+        from {left: 100%}
+        to {left: -100%}
+      }
+    
+      .pepper4 {
+        background-image: url(..//img/pepper.png);
+        position: absolute;
+        top: 35vh;
+        width: 537px;
+        height: 483px;
+        animation: left2 7s linear infinite;
+        mix-blend-mode: difference;
+      }
+    
+      @keyframes left2 {
+        from {left: -100%}
+        to {left: 100%}
+      }
+    
+      .onion4 {
+        background-image: url(..//img/onion.png);
+        position: absolute;
+        top: 50vh;
+        width: 334px;
+        height: 311px;
+        animation: right2 3s linear infinite;
+        mix-blend-mode: difference;
+      }
+    
+      @keyframes right2 {
+        from {left: 100%}
+        to {left: -100%}
+      }
+    
+      .section5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    
+    
+      .holod2 {
+        margin-top: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+        .holodos2 {
+            position: absolute;
+            width: 100vw;
+            height: 1441px;
+            /* top: 50vh; */
+        }
+    
+        .end {
+            z-index: 1;
+            position: absolute;
+            top: 77vh;
+            left: 1vw;
+            display: flex;
+            justify-content: center;
+            width: 97.50vw;
+            color: var(--white, #FDFDFD);
+            font-family: "SF Pro Text";
+            font-size: 8.25vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 128%; /* 153.6px */
+            letter-spacing: -6px;
+            text-transform: uppercase;
+            animation: just 4s ease-in-out infinite;
+
+            left: 1%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media only screen and (min-width: 414px) and (max-width: 768px) {
+                /* iPhone */
+
+                html, body{
+                    overflow-x: hidden;
+                }
+                
+                body {
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    flex: none;
+                    margin: 0 auto;
+                    position: relative;
+                }
+                
+                body {
+                    background-color: #111;
+                }
+                
+                .body2 {
+                    background-color: #000;
+                }
+                
+                .canvas {
+                    position: absolute;
+                    width: 100%; 
+                    height: 1080px
+                }
+                
+                @font-face {
+                  font-family: "SF Pro Text";
+                  src: url("../fonts/SFProText-Regular.ttf") format("truetype");
+                }
+                
+                .section1 {
+                    width: 100%;
+                    height: 1080px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                header {
+                    top: 24px;
+                    font-size: 6vw;
+                    letter-spacing: -0.64px;
+                    position: relative;
+                    z-index: 1000;
+                    display: flex;
+                    gap: 63.65vw;
+                    font-family: "SF Pro Text";
+                    color: var(--gray-300, #fff);
+                    font-style: normal;
+                    font-weight: 400;
+                    text-decoration-line: underline;
+                    line-height: normal;
+                    text-transform: uppercase;
+                }
+                
+                .circlebox {
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .h1box {
+                    position: absolute;
+                    top: 27vh;
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                h1 {
+                    color: #FFF;
+                    font-family: "SF Pro Text";
+                    font-size: 25vw;
+                    font-weight: 400;
+                    line-height: 468px;
+                    text-transform: uppercase;
+                    z-index: 1;
+                }
+                
+                .products {
+                    width: 100%;
+                    height: 1080px;
+                }
+                
+                .carrot {
+                    width: 450px;
+                    height: 506px;
+                    scale: 0.6;
+                    position: absolute;    
+                    top: 6vw;
+                    left: 7.29vw;
+                    position: absolute; 
+                    background-image: url(../img/carrot.png);
+                }
+                
+                .oil {
+                    width: 477px;
+                    height: 438px;
+                    scale: 0.6;
+                    /* scale: 1.2; */
+                    background-image: url(../img/oil.png);
+                    position: absolute;
+                    top: 4vw;
+                    left: 31vw;
+                }
+                
+                .pepper {
+                    width: 537px;
+                    height: 483px;
+                    scale: 0.6;
+                    /* scale: 1.2; */
+                    background-image: url(../img/pepper.png);
+                    position: absolute;
+                    top: 4vw;
+                    left: 56vw
+                }
+                
+                .onion {
+                    width: 334px;
+                    height: 311px;
+                    scale: 0.6;
+                    /* scale: 1.2; */
+                    background-image: url(../img/onion.png);
+                    position: absolute;
+                    top: 12vw;
+                    left: 82vw
+                }
+                
+                .milk {
+                    width: 623px;
+                    height: 778px;
+                    scale: 0.6;
+                    /* scale: 1.2; */
+                    background-image: url(../img/milk.png);
+                    position:absolute;
+                    top: 23vw;
+                    left: 7vw 
+                }
+                
+                .cream {
+                    width: 373px;
+                    height: 226px;
+                    scale: 0.6;
+                    /* scale: 1.2; */
+                    background-image: url(../img/cream.png);
+                    position: absolute;
+                    left: 35vw
+                }
+                
+                .dish {
+                    width: 688px;
+                    height: 706px;
+                    scale: 0.6;
+                    /* scale: 1.2; */
+                    background-image: url(..//img/dish.png);
+                    position: absolute;
+                    top: 30vw;
+                    left: 52vw;
+                }
+                
+                .yellowpepper {
+                    width: 513px;
+                    height: 510px;
+                    scale: 0.6;
+                    /* scale: 1.2; */
+                    background-image: url(../img/yellowpepper.png);
+                    position: absolute;
+                    top: 35vw;
+                    right: 1vw;
+                }
+                
+                .subscription {
+                    color: var(--gray-300, #808080);
+                    font-family: "SF Pro Text";
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-transform: lowercase;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: 98.241vh;
+                    left: 50%;
+                    z-index: -1000;
+                    transform: translate(-50%, -50%);
+                }
+                
+                
+                
+                /* section 2 */
+                .h2box {
+                    width: 97.50vw;
+                    color: var(--white, #FDFDFD);
+                    font-family: "SF Pro Text";
+                    font-size: 8.25vw;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 128%; /* 153.6px */
+                    text-transform: uppercase;
+                    animation: just 4s ease-in-out infinite;
+                    position: relative;
+                    top: 29vh;
+                    left: 1%;
+                }
+                
+                @keyframes just {
+                    0% {text-align: left;}
+                    100% {text-align: justify;}
+                }
+                
+                /* section 3 */
+                
+                .holod {
+                    margin-top: 80vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .holodos {
+                    position: absolute;
+                    width: 100vw;
+                }
+                
+                .productsInHolodos {
+                    width: 100vw;
+                    z-index: 1000;
+                    /* display: flex; */
+                    overflow: hidden;
+                }
+                
+                .carrot2 {
+                    width: 450px;
+                    height: 516px;
+                    scale: 0.4;
+                    position: absolute;    
+                    top: 180vh;
+                    left: 9vw;
+                    background-image: url(../img/carrot2.png);
+                
+                }
+                
+                .oil2 {
+                    width: 418px;
+                    height: 343px; 
+                    scale: 0.4;
+                    background-image: url(../img/oil2.png);
+                    position: absolute;
+                    top: 186vh;
+                    left: 28vw;
+                }
+                
+                .pepper2 {
+                    width: 537px;
+                    height: 554px;
+                    scale: 0.4;
+                    background-image: url(../img/pepper2.png);
+                    position: absolute;
+                    z-index: 1000;
+                    top: 175.97vh;
+                    left: 20.28vw
+                }
+                
+                .onion2 {
+                    width: 334px;
+                    height: 311px;
+                    scale: 0.4;
+                    background-image: url(../img/onion2.png);
+                    position: absolute;
+                    z-index: 1000;
+                    top: 190.32vh; 
+                    left: 57.92vw
+                }
+                
+                .milk2 {
+                    width: 280px;
+                    height: 769px;
+                    scale: 0.4;
+                    background-image: url(../img/milk2.png);
+                    position:absolute;
+                    z-index: 1000;
+                    top: 160vh;
+                    left: -10vw
+                }
+                
+                .cream2 {
+                    width: 359px;
+                    height: 124px;
+                    scale: 0.4;
+                    background-image: url(../img/cream2.png);
+                    position: absolute;
+                    top: 200vh;
+                    left: 3vw
+                }
+                
+                .dish2 {
+                    width: 876px;
+                    height: 643px;
+                    scale: 0.4;
+                    background-image: url(..//img/dish2.png);
+                    position: absolute;
+                    top: 165vh;
+                    left: 2vw;
+                }
+                
+                .yellowpepper2 {
+                    width: 515px;
+                    height: 509px;
+                    scale: 0.4;
+                    background-image: url(../img/yellowpepper2.png);
+                    position: absolute;
+                    top: 175vh;
+                    left: 40vw;
+                }
+                
+                .teleportFlex {
+                    width: 12vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    top: 248vh;
+                }
+                
+                #teleport {
+                    width: 12vw;
+                    height: 12vw;
+                    border-radius: 180vw;
+                    background-color:#111;
+                    position: absolute;
+                    left: 50vw;
+                    animation: scale 1.5s ease-in-out;
+                    transition: scale 1.5s ease-in-out;
+                    /* z-index: 2000; */
+                }
+                
+                .clickHere {
+                    color: var(--gray-300, #808080);
+                    font-family: "SF Pro Text";
+                    font-size: 2vw;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.36px;
+                    text-transform: lowercase;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+
+                    left: 52vw
+                }
+                
+                .section4 {
+                    width: 100%;
+                    height: 1080px;
+                    background-color: #111;
+                }
+                
+                  .carrot4 {
+                    background-image: url(..//img/carrot.png);
+                    position: absolute;
+                    width: 450px;
+                    height: 506px;
+                    animation: left 3s linear infinite;
+                    mix-blend-mode: difference;
+                  }
+                
+                  @keyframes left {
+                    from {left: -100%}
+                    to {left: 100%}
+                  }
+                
+                  .oil4 {
+                    background-image: url(..//img/oil.png);
+                    position: absolute;
+                    top: 20vh;
+                    width: 477px;
+                    height: 438px;
+                    animation: right 4s linear infinite;
+                    mix-blend-mode: difference;
+                  }
+                
+                  @keyframes right {
+                    from {left: 100%}
+                    to {left: -100%}
+                  }
+                
+                  .pepper4 {
+                    background-image: url(..//img/pepper.png);
+                    position: absolute;
+                    top: 35vh;
+                    width: 537px;
+                    height: 483px;
+                    animation: left2 7s linear infinite;
+                    mix-blend-mode: difference;
+                  }
+                
+                  @keyframes left2 {
+                    from {left: -100%}
+                    to {left: 100%}
+                  }
+                
+                  .onion4 {
+                    background-image: url(..//img/onion.png);
+                    position: absolute;
+                    top: 50vh;
+                    width: 334px;
+                    height: 311px;
+                    animation: right2 3s linear infinite;
+                    mix-blend-mode: difference;
+                  }
+                
+                  @keyframes right2 {
+                    from {left: 100%}
+                    to {left: -100%}
+                  }
+                
+                
+                
+                  .section5 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                  }
+                
+                
+                  .holod2 {
+                    margin-top: 12vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                    .holodos2 {
+                        position: absolute;
+                        width: 100vw;
+                        height: 100vw;
+                        /* top: 50vh; */
+                    }
+                
+                    .end {
+                        z-index: 10000;
+                        position: absolute;
+                        top: 80vh;
+                        left: 1vw;
+                        display: flex;
+                        justify-content: center;
+                        width: 97.50vw;
+                        color: var(--white, #FDFDFD);
+                        font-family: "SF Pro Text";
+                        font-size: 8.25vw;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 128%; /* 153.6px */
+                        text-transform: uppercase;
+                        animation: just 4s ease-in-out infinite;
+                        left: 1%;
+                    }
+                }
+
+
+
+
+                @media only screen and (min-width: 768px) and (max-width: 1440px) {
+                    /* Tablet */
+    
+                    html, body{
+                        /* padding: 24px;   */
+                        overflow-x: hidden;
+                    }
+                    
+                    body {
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        flex: none;
+                        margin: 0 auto;
+                        position: relative;
+                    }
+                    
+                    body {
+                        background-color: #111;
+                    }
+                    
+                    .body2 {
+                        background-color: #000;
+                    }
+                    
+                    .canvas {
+                        position: absolute;
+                        width: 100%; 
+                        height: 1080px
+                    }
+                    
+                    @font-face {
+                      font-family: "SF Pro Text";
+                      src: url("../fonts/SFProText-Regular.ttf") format("truetype");
+                    }
+                    
+                    .section1 {
+                        width: 100%;
+                        height: 1080px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    header {
+                        top: 24px;
+                        font-size: 3.33vw;
+                        letter-spacing: -0.64px;
+                        position: relative;
+                        z-index: 1000;
+                        display: flex;
+                        gap: 63.65vw;
+                        font-family: "SF Pro Text";
+                        color: var(--gray-300, #fff);
+                        font-style: normal;
+                        font-weight: 400;
+                        text-decoration-line: underline;
+                        line-height: normal;
+                        text-transform: uppercase;
+                    }
+                    
+                    .circlebox {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    .h1box {
+                        position: absolute;
+                        top: 37vh;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    h1 {
+                        color: #FFF;
+                        font-family: "SF Pro Text";
+                        font-size: 25vw;
+                        font-weight: 400;
+                        line-height: 468px;
+                        letter-spacing: -2.918px;
+                        text-transform: uppercase;
+                        z-index: 1;
+                    }
+                    
+                    .products {
+                        width: 100%;
+                        height: 1080px;
+                    }
+                    
+                    .carrot {
+                        width: 450px;
+                        height: 506px;
+                        /* scale: 1.2; */
+                        position: absolute;    
+                        top: 6vw;
+                        left: 7.29vw;
+                        position: absolute; 
+                        background-image: url(../img/carrot.png);
+                    }
+                    
+                    .oil {
+                        width: 477px;
+                        height: 438px;
+                        /* scale: 1.2; */
+                        background-image: url(../img/oil.png);
+                        position: absolute;
+                        top: 4vw;
+                        left: 31vw;
+                    }
+                    
+                    .pepper {
+                        width: 537px;
+                        height: 483px;
+                        /* scale: 1.2; */
+                        background-image: url(../img/pepper.png);
+                        position: absolute;
+                        top: 4vw;
+                        left: 56vw
+                    }
+                    
+                    .onion {
+                        width: 334px;
+                        height: 311px;
+                        /* scale: 1.2; */
+                        background-image: url(../img/onion.png);
+                        position: absolute;
+                        top: 12vw;
+                        left: 82vw
+                    }
+                    
+                    .milk {
+                        width: 623px;
+                        height: 778px;
+                        /* scale: 1.2; */
+                        background-image: url(../img/milk.png);
+                        position:absolute;
+                        top: 23vw;
+                        left: 7vw 
+                    }
+                    
+                    .cream {
+                        width: 373px;
+                        height: 226px;
+                        /* scale: 1.2; */
+                        background-image: url(../img/cream.png);
+                        position: absolute;
+                        left: 35vw
+                    }
+                    
+                    .dish {
+                        width: 688px;
+                        height: 706px;
+                        /* scale: 1.2; */
+                        background-image: url(..//img/dish.png);
+                        position: absolute;
+                        top: 30vw;
+                        left: 52vw;
+                    }
+                    
+                    .yellowpepper {
+                        width: 513px;
+                        height: 510px;
+                        /* scale: 1.2; */
+                        background-image: url(../img/yellowpepper.png);
+                        position: absolute;
+                        top: 35vw;
+                        right: 1vw;
+                    }
+                    
+                    .subscription {
+                        color: var(--gray-300, #808080);
+                        font-family: "SF Pro Text";
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: -0.36px;
+                        text-transform: lowercase;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: 98.241vh;
+                        left: 50%;
+                        z-index: -1000;
+                        transform: translate(-50%, -50%);
+                    }
+                    
+                    
+                    
+                    /* section 2 */
+                    .h2box {
+                        width: 97.50vw;
+                        color: var(--white, #FDFDFD);
+                        font-family: "SF Pro Text";
+                        font-size: 8.25vw;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 128%; /* 153.6px */
+                        letter-spacing: -6px;
+                        text-transform: uppercase;
+                        animation: just 4s ease-in-out infinite;
+                        position: relative;
+                        top: 29vh;
+                        left: 1%;
+                    }
+                    
+                    @keyframes just {
+                        0% {text-align: left;}
+                        100% {text-align: justify;}
+                    }
+                    
+                    /* section 3 */
+                    
+                    .holod {
+                        margin-top: 117.852vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .holodos {
+                        position: absolute;
+                        width: 100vw;
+                        height: 1441px;
+                    }
+                    
+                    .productsInHolodos {
+                        width: 100vw;
+                        z-index: 1000;
+                        display: flex;
+                        overflow: hidden;
+                    }
+                    
+                    .carrot2 {
+                        width: 450px;
+                        height: 516px;
+                        scale: 1,2;
+                        position: absolute;    
+                        top: 220vh;
+                        left: 9vw;
+                        background-image: url(../img/carrot2.png);
+                    
+                    }
+                    
+                    .oil2 {
+                        width: 418px;
+                        height: 343px; 
+                        scale: 1.2;
+                        background-image: url(../img/oil2.png);
+                        position: absolute;
+                        top: 236vh;
+                        left: 28vw;
+                    }
+                    
+                    .pepper2 {
+                        width: 537px;
+                        height: 554px;
+                        scale: 1.2;
+                        background-image: url(../img/pepper2.png);
+                        position: absolute;
+                        z-index: 1000;
+                        top: 215.97vh;
+                        left: 20.28vw
+                    }
+                    
+                    .onion2 {
+                        width: 334px;
+                        height: 311px;
+                        scale: 1.2;
+                        background-image: url(../img/onion2.png);
+                        position: absolute;
+                        z-index: 1000;
+                        top: 229.32vh; 
+                        left: 57.92vw
+                    }
+                    
+                    .milk2 {
+                        width: 280px;
+                        height: 769px;
+                        scale: 1.2;
+                        background-image: url(../img/milk2.png);
+                        position:absolute;
+                        z-index: 1000;
+                        top: 200vh;
+                        left: 5.36vw
+                    }
+                    
+                    .cream2 {
+                        width: 359px;
+                        height: 124px;
+                        scale: 1.2;
+                        background-image: url(../img/cream2.png);
+                        position: absolute;
+                        top: 255vh;
+                        left: 38vw
+                    }
+                    
+                    .dish2 {
+                        width: 876px;
+                        height: 643px;
+                        scale: 1.2;
+                        background-image: url(..//img/dish2.png);
+                        position: absolute;
+                        top: 205vh;
+                        left: 52vw;
+                    }
+                    
+                    .yellowpepper2 {
+                        width: 515px;
+                        height: 509px;
+                        scale: 1.2;
+                        background-image: url(../img/yellowpepper2.png);
+                        position: absolute;
+                        top: 235vw;
+                        left: 40vw;
+                    }
+                    
+                    .teleportFlex {
+                        width: 12vw;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        top: 248vh;
+                    }
+                    
+                    #teleport {
+                        width: 12vw;
+                        height: 12vw;
+                        border-radius: 180vw;
+                        background-color:#111;
+                        position: absolute;
+                        left: 38vw;
+                        animation: scale 1.5s ease-in-out;
+                        transition: scale 1.5s ease-in-out;
+                        /* z-index: 2000; */
+                    }
+                    
+                    .clickHere {
+                        color: var(--gray-300, #808080);
+                        font-family: "SF Pro Text";
+                        font-size: 2vw;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: -0.36px;
+                        text-transform: lowercase;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: 153vw;
+                        left: 41vw
+                    }
+                    
+                    .section4 {
+                        width: 100%;
+                        height: 1080px;
+                        background-color: #111;
+                    }
+                    
+                      .carrot4 {
+                        background-image: url(..//img/carrot.png);
+                        position: absolute;
+                        width: 450px;
+                        height: 506px;
+                        animation: left 3s linear infinite;
+                        mix-blend-mode: difference;
+                      }
+                    
+                      @keyframes left {
+                        from {left: -100%}
+                        to {left: 100%}
+                      }
+                    
+                      .oil4 {
+                        background-image: url(..//img/oil.png);
+                        position: absolute;
+                        top: 20vh;
+                        width: 477px;
+                        height: 438px;
+                        animation: right 4s linear infinite;
+                        mix-blend-mode: difference;
+                      }
+                    
+                      @keyframes right {
+                        from {left: 100%}
+                        to {left: -100%}
+                      }
+                    
+                      .pepper4 {
+                        background-image: url(..//img/pepper.png);
+                        position: absolute;
+                        top: 35vh;
+                        width: 537px;
+                        height: 483px;
+                        animation: left2 7s linear infinite;
+                        mix-blend-mode: difference;
+                      }
+                    
+                      @keyframes left2 {
+                        from {left: -100%}
+                        to {left: 100%}
+                      }
+                    
+                      .onion4 {
+                        background-image: url(..//img/onion.png);
+                        position: absolute;
+                        top: 50vh;
+                        width: 334px;
+                        height: 311px;
+                        animation: right2 3s linear infinite;
+                        mix-blend-mode: difference;
+                      }
+                    
+                      @keyframes right2 {
+                        from {left: 100%}
+                        to {left: -100%}
+                      }
+                    
+                    
+                    
+                      .section5 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                      }
+                    
+                    
+                      .holod2 {
+                        margin-top: 60vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                        .holodos2 {
+                            position: absolute;
+                            width: 100vw;
+                            height: 1441px;
+                            /* top: 50vh; */
+                        }
+                    
+                        .end {
+                            z-index: 10000;
+                            position: absolute;
+                            top: 80vh;
+                            left: 1vw;
+                            display: flex;
+                            justify-content: center;
+                            width: 97.50vw;
+                            color: var(--white, #FDFDFD);
+                            font-family: "SF Pro Text";
+                            font-size: 8.25vw;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 128%; /* 153.6px */
+                            letter-spacing: -6px;
+                            text-transform: uppercase;
+                            animation: just 4s ease-in-out infinite;
+                            left: 1%;
+                        }
+    
+                    }
